@@ -25,7 +25,7 @@ img {
 	object-fit: cover;
 }
 p {
-	color: rgb(235, 21, 21);
+	color: black;
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -35,22 +35,22 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: rgb(218, 12, 12);
+	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
 .section-title span {
-	color: rgb(10, 10, 10);
+	color: crimson;
 }
 
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: rgb(255, 253, 253);
+	color: white;
 	background-color: transparent;
-	border: 2px solid rgb(10, 10, 10);
+	border: 2px solid crimson;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -59,16 +59,16 @@ p {
 	transition-property: background-color, color;
 }
 .cta:hover {
-	color: rgb(248, 242, 242);
-	background-color: rgb(12, 12, 12);
+	color: white;
+	background-color: crimson;
 }
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: rgb(214, 210, 210);
+	color: white;
 }
 .brand h1 span {
-	color: rgb(3, 3, 3);
+	color: crimson;
 }
 
 /* Header section */
@@ -82,7 +82,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(223, 15, 15, 0.979);
+	background-color: rgba(31, 30, 30, 0.24);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -97,7 +97,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(236, 28, 28);
+	background-color: rgb(31, 30, 30);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -118,7 +118,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
-	color: rgb(92, 87, 87);
+	color: white;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -129,7 +129,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(20, 85, 143, 0.021);
+	color: rgba(240, 248, 255, 0.021);
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -700,3 +700,4 @@ p {
 		margin: 1.5%;
 	}
 }
+/* End  Media Query For Desktop */
